@@ -32,7 +32,7 @@ Automatically builds an optimal and equitable broadcast schedule for MLE matches
 │   ├── league_schedule.csv
 │   └── broadcast_slots.csv
 ├── requirements.txt
-└── new-generate-schedule.py
+└── generate-schedule.py
 ```
 
 ## How to Use It
@@ -46,7 +46,7 @@ pip install -r requirements.txt
 
 3. Run the scheduling script:
 ```bash
-python new-generate-schedule.py
+python generate-schedule.py
 ```
 
 4. Check your output:
@@ -102,7 +102,7 @@ These variables, constraints, and objectives are directly encoded into the CP-SA
 
 **3. Implementation**
 
-The implementation (`new-generate-schedule.py`) performs the following tasks:
+The implementation (`generate-schedule.py`) performs the following tasks:
 
 - **Reads input CSV data** using pandas.
 - Creates optimization model variables and constraints using the OR-Tools CP-SAT model.
