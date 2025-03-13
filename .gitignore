@@ -1,3 +1,13 @@
+# Pyvenv
+
+bin/
+include/
+lib/
+pyvenv.cfg
+
+# Tool inputs
+inputs/*
+
 # Byte-compiled / optimized / DLL files
 __pycache__/
 *.py[cod]
